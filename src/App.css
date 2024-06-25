@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Col1{
+    height: 100vh;
+    
+    background-image: linear-gradient(to top, #c8f5f2 0%, #fed6e3 100%);
   }
-  to {
-    transform: rotate(360deg);
+  .Col2{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   }
-}
+  .Col1 li{
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+  
+  }
+  .Col1 li:hover{
+  background-color:#E5D4FF;
+  }
+  .sub1{
+    border:3px solid whitesmoke;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    border-radius: 20px;
+    height: 120px;
+    width: 10px;
+    text-align: center;
+    padding:20px;
+    color: white;
+  
+  }
+  .main{
+    margin: 10px;
+    padding: 10PX;
+  }
+  
+  .sub2{
+    border:2px solid whitesmoke;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  
+    border-color:white;
+    border-radius: 20px;
+    
+  }
+  
+  .mainsub01{
+            
+   margin-top: 20px;
+  }
+  .sub-main{
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    border-color:white;
+    border-radius: 20px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  .menu{
+    position: sticky;
+    top:0;
+    left: 0;
+  
+  }
+  .class1{
+    border-color:5px solid white;
+    border-radius: 10px;
+    height: 100px;
+    width: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .classes{
+    margin: 5px;
+  }  
+  .cls{
+    padding: 10px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  }
+  .cls1{
+    padding: 10px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    text-align: center;
+    margin: 10px;
+  }
+  .cls2{
+    padding: 10px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .cont1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    height: 100px;
+   
+  }
+  .c1{
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .c1:hover{
+   transform:scale(1.1) ;
+  }
+  .con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  
+  }
+  .child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin: 10px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  }
+  .web{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  }
+  .count{
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
