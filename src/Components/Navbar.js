@@ -6,7 +6,7 @@ function app(){
   return (
     <div className='navbar'>
       <ul>
-           <Link to='/'><li>company</li></Link>
+           <Link to='/react'><li>company</li></Link>
            <Link to='/about'><li>sales</li></Link>
            <Link to='/services'><li>products</li></Link>
            <Link to='/contact'><li>Contact</li></Link>
