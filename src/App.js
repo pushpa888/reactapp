@@ -20,8 +20,6 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
   return (
     <div>
        
-      
-       
        <Row>
            <Router>
                <Col sm={2} className='Col1'> <Navbar/> </Col>
