@@ -13,8 +13,6 @@ function app(){
            <Link to='/counter'><li>counter</li></Link>
 
            <Link to='/counter1'><li>counter1</li></Link>
-
-
       </ul>
     </div>
   )
